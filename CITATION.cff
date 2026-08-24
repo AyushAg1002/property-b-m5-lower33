@@ -1,0 +1,37 @@
+cff-version: "1.2.0"
+message: "If you use this proof artifact, cite this archived release and the accompanying manuscript."
+title: "An Exact Locked-Permutation Certificate for Property B: m(5) >= 33"
+type: software
+version: "1.0.0"
+date-released: "2026-08-23"
+doi: "10.5281/zenodo.22070117"
+authors:
+  - family-names: "Agarwal"
+    given-names: "Ayush"
+    affiliation: "Independent researcher, Bengaluru, India"
+    email: "ayushag1002@gmail.com"
+    orcid: "https://orcid.org/0009-0000-7437-1929"
+repository-code: "https://github.com/AyushAg1002/property-b-m5-lower33"
+repository-artifact: "https://doi.org/10.5281/zenodo.22070117"
+url: "https://doi.org/10.5281/zenodo.22070117"
+identifiers:
+  - type: url
+    value: "https://github.com/AyushAg1002/property-b-m5-lower33/releases/tag/v1.0.0"
+    description: "GitHub release for artifact version 1.0.0"
+abstract: >-
+  Exact rational certificates and independently written replay programs
+  supporting the theorem that every 5-uniform hypergraph with at most 32
+  edges is 2-colourable.
+keywords:
+  - Property B
+  - hypergraph 2-colouring
+  - exact certificate
+  - computer-assisted proof
+  - combinatorics
+preferred-citation:
+  type: article
+  title: "An Exact Locked-Permutation Certificate for Property B: m(5) >= 33"
+  authors:
+    - family-names: "Agarwal"
+      given-names: "Ayush"
+  year: 2026

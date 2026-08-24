@@ -1,0 +1,67 @@
+{
+  "arithmetic": "fractions.Fraction; compiled integer-polynomial kernels",
+  "direct_evaluator_match_at_worst": true,
+  "labelled_assignments": 24,
+  "position_bases": [
+    [
+      10,
+      11,
+      12
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      11,
+      12,
+      13
+    ],
+    [
+      1,
+      2,
+      12
+    ]
+  ],
+  "profile_count": 1864,
+  "python_optimized_mode_safe": true,
+  "record_sha256": "dd41903f21f585c7dd2cf83b33f8035763a8b47586339e33b5457408e8dd2b4d",
+  "schema": "property-b-m5-m32-v21-four-base-menu-v1",
+  "selected_base_counts": {
+    "(1, 2, 12)": 793,
+    "(1, 2, 3)": 2,
+    "(10, 11, 12)": 1066,
+    "(11, 12, 13)": 3
+  },
+  "worst_bound": {
+    "denominator": 9724,
+    "numerator": 9599
+  },
+  "worst_profile": {
+    "bound": {
+      "denominator": 9724,
+      "numerator": 9599
+    },
+    "counts_by_mask": [
+      15,
+      5,
+      4,
+      1,
+      4,
+      1,
+      2,
+      0
+    ],
+    "degrees": [
+      7,
+      7,
+      7
+    ],
+    "positions_by_label": [
+      1,
+      2,
+      12
+    ]
+  }
+}

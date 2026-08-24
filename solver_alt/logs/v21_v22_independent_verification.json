@@ -1,0 +1,14 @@
+{
+  "artifact_record_count": 3081,
+  "artifact_sha256": "feb165603b8eda25a3dfd55f842783810b015a5f1d4be510ce347a6dfac2ab7a",
+  "status": "ALL_V21_V22_ROWS_INDEPENDENTLY_VERIFIED",
+  "v21_profile_count": 1864,
+  "v21_worst": "9599/9724",
+  "v22_closed_directly": 997,
+  "v22_initial_profile_count": 1000,
+  "v22_ramsey_independent_count": 2,
+  "v22_ramsey_independent_worst": "91231/92378",
+  "v22_ramsey_triangle_count": 215,
+  "v22_ramsey_triangle_worst": "456463/461890",
+  "v22_residual_count": 3
+}

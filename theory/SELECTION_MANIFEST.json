@@ -1,0 +1,73 @@
+{
+  "arithmetic": "Python fractions.Fraction; binomial coefficients are exact integers",
+  "canonical_hash_encoding": "ASCII JSON, sorted rows, separators=(',', ':')",
+  "pbd": {
+    "K4": {
+      "count": 6,
+      "sha256": "35d71c1bd523dd2dd334603c79c6fcba62973f36ea518d22ed52940e5c76f312"
+    },
+    "K5": {
+      "count": 32,
+      "sha256": "e3a72027cd5955883eb6c56ff848a95a974e3e9d2c517ec5e3fd9d49505ca12b"
+    }
+  },
+  "schema": "property-b-m5-locked-certificate-v1",
+  "v23_degree_6_6_7_7_four_lock": {
+    "allowed_assignment_count": 48,
+    "allowed_assignments_sha256": "67e374002fa507030105f5ae5e632b5c42a09856e0d895c9a8794d172e0dc713",
+    "maximum_bound": "8315/8398",
+    "position_bases": [
+      [
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    "row_count": 3,
+    "rows_sha256": "93a8ebe99ee26910fa6524a99c73148d3c1c9d83bbf86dbfcfd65d74465ab9df"
+  },
+  "v23_degree_6_7_7_7_7_five_lock": {
+    "allowed_assignment_count": 11,
+    "allowed_assignments_sha256": "7efdf3fe24c67ab5d45bbb53593fd68061bd2850dabbd512a016907b5a0dc186",
+    "maximum_bound": "45784/51051",
+    "row_count": 32,
+    "rows_sha256": "0e1063136d9611768c47870b4e862b102235abe14b921f0251e41dd0b7d4899e"
+  },
+  "v23_three_lock": {
+    "(6, 6, 6)": {
+      "all_profile_count": 192,
+      "all_profiles_sha256": "7cf883eaa09767ef80cf11a726df495b3b44efca99308bb98ea80fd2dfaf15ae",
+      "residual_count": 0,
+      "residual_profiles_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "(6, 6, 7)": {
+      "all_profile_count": 220,
+      "all_profiles_sha256": "4cb7b1bf3d375c04ad35ed98b482f66308781d19485211ce8744940d5338cc9e",
+      "residual_count": 2,
+      "residual_profiles_sha256": "7ec468f5c51527ee1cadb66dda086e52abc2b4eb26aec72ed2b2841e7cdb9c69"
+    },
+    "(6, 7, 7)": {
+      "all_profile_count": 263,
+      "all_profiles_sha256": "6272e1e5873fa83ecce0a7de46da04a01f62fd94e0a6a632df309cd367e37121",
+      "residual_count": 17,
+      "residual_profiles_sha256": "b3eb95aa6bd1adddd17a5abf7624e24d3213e3c97e43a4ebc84e5e4ca55a748e"
+    }
+  },
+  "v24_degree_6_6_6_6_four_lock": {
+    "maximum_bound": "16671/16796",
+    "row_count": 6,
+    "rows_sha256": "1cad328201da36b7ee2e88da5df72371c63d1710f6a7c7532896ce7b79f43685"
+  },
+  "v25_favourable_five_lock": {
+    "maximum_bound": "4188/4199",
+    "row_count": 7,
+    "rows_sha256": "18055e130748c9676e3231ca9ea2349152affe1bce6d8038033e9d2ccaa04aba"
+  }
+}

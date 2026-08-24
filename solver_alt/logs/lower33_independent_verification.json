@@ -1,0 +1,102 @@
+{
+  "arithmetic": "fractions.Fraction only",
+  "bound_cache": {
+    "currsize": 5530,
+    "hits": 0,
+    "maxsize": null,
+    "misses": 5530
+  },
+  "canonical_all_row_hashes_match": true,
+  "canonical_fingerprints": {
+    "assignments_v23_6677": {
+      "count": 48,
+      "sha256": "67e374002fa507030105f5ae5e632b5c42a09856e0d895c9a8794d172e0dc713"
+    },
+    "assignments_v23_67777": {
+      "count": 11,
+      "sha256": "7efdf3fe24c67ab5d45bbb53593fd68061bd2850dabbd512a016907b5a0dc186"
+    },
+    "pbd_k4": {
+      "count": 6,
+      "sha256": "35d71c1bd523dd2dd334603c79c6fcba62973f36ea518d22ed52940e5c76f312"
+    },
+    "pbd_k5": {
+      "count": 32,
+      "sha256": "e3a72027cd5955883eb6c56ff848a95a974e3e9d2c517ec5e3fd9d49505ca12b"
+    },
+    "profiles_666": {
+      "count": 192,
+      "sha256": "7cf883eaa09767ef80cf11a726df495b3b44efca99308bb98ea80fd2dfaf15ae"
+    },
+    "profiles_667": {
+      "count": 220,
+      "sha256": "4cb7b1bf3d375c04ad35ed98b482f66308781d19485211ce8744940d5338cc9e"
+    },
+    "profiles_677": {
+      "count": 263,
+      "sha256": "6272e1e5873fa83ecce0a7de46da04a01f62fd94e0a6a632df309cd367e37121"
+    },
+    "residual_666": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "residual_667": {
+      "count": 2,
+      "sha256": "7ec468f5c51527ee1cadb66dda086e52abc2b4eb26aec72ed2b2841e7cdb9c69"
+    },
+    "residual_677": {
+      "count": 17,
+      "sha256": "b3eb95aa6bd1adddd17a5abf7624e24d3213e3c97e43a4ebc84e5e4ca55a748e"
+    },
+    "rows_v23_6677": {
+      "count": 3,
+      "sha256": "93a8ebe99ee26910fa6524a99c73148d3c1c9d83bbf86dbfcfd65d74465ab9df"
+    },
+    "rows_v23_67777": {
+      "count": 32,
+      "sha256": "0e1063136d9611768c47870b4e862b102235abe14b921f0251e41dd0b7d4899e"
+    },
+    "rows_v24": {
+      "count": 6,
+      "sha256": "1cad328201da36b7ee2e88da5df72371c63d1710f6a7c7532896ce7b79f43685"
+    },
+    "rows_v25": {
+      "count": 7,
+      "sha256": "18055e130748c9676e3231ca9ea2349152affe1bce6d8038033e9d2ccaa04aba"
+    }
+  },
+  "canonical_manifest": "theory/SELECTION_MANIFEST.json",
+  "k4_partition_count": 6,
+  "k4_sha256": "c9162cf0f0291c4586b3737979262be64d296df4018a8a711c697cb340294f24",
+  "k5_partition_count": 32,
+  "k5_sha256": "67959c2e215517af54d33e1459fbd477e9bfc70755332a4f08b5362dc0e8a817",
+  "status": "ALL_INDEPENDENT_EXACT_CHECKS_PASSED",
+  "v23_case_a_assignment_wins": [
+    0,
+    5,
+    0,
+    22,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4
+  ],
+  "v23_case_a_max": "45784/51051",
+  "v23_case_b_max": "8315/8398",
+  "v23_residual_counts": [
+    0,
+    2,
+    17
+  ],
+  "v23_residual_hashes": [
+    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "5be5c92be6730f3be9df111a518afe159cfc52eb6036765a3b59a98574493163",
+    "3d2bf36f9899db74567037847bfb92b3d65a0b7402f48b3237fdd59d4c283421"
+  ],
+  "v24_max": "16671/16796",
+  "v25_favourable_count": 7,
+  "v25_favourable_max": "4188/4199"
+}

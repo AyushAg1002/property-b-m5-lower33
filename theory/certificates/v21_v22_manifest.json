@@ -1,0 +1,284 @@
+{
+  "all_record_count": 3081,
+  "all_records_sha256": "feb165603b8eda25a3dfd55f842783810b015a5f1d4be510ce347a6dfac2ab7a",
+  "arithmetic": "Python Fraction; no floating-point comparisons",
+  "schema": "property-b-m5-locked-certificate-v1",
+  "v21": {
+    "certificate_sha256": "c622bed337a8fb1682f765020a2504542c89c77383559909095d05b98e040ee2",
+    "position_bases": [
+      [
+        10,
+        11,
+        12
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        11,
+        12,
+        13
+      ],
+      [
+        1,
+        2,
+        12
+      ]
+    ],
+    "profile_count": 1864,
+    "worst_bound": {
+      "denominator": 9724,
+      "numerator": 9599
+    },
+    "worst_profile": {
+      "bound": {
+        "denominator": 9724,
+        "numerator": 9599
+      },
+      "counts_by_mask_000_to_111": [
+        15,
+        5,
+        4,
+        1,
+        4,
+        1,
+        2,
+        0
+      ],
+      "degrees": [
+        7,
+        7,
+        7
+      ],
+      "family": "v21_all",
+      "positions_by_selected_label": [
+        1,
+        2,
+        12
+      ],
+      "selected_codegrees": [
+        1,
+        1,
+        2
+      ],
+      "strictly_below_one": true,
+      "vertices": 21
+    }
+  },
+  "v22": {
+    "initial_directly_closed": 997,
+    "initial_profile_count": 1000,
+    "initial_residual_count": 3,
+    "initial_residual_profiles": [
+      {
+        "bound": {
+          "denominator": 1385670,
+          "numerator": 1395847
+        },
+        "counts_by_mask_000_to_111": [
+          15,
+          5,
+          4,
+          1,
+          4,
+          1,
+          2,
+          0
+        ],
+        "degrees": [
+          7,
+          7,
+          7
+        ],
+        "family": "v22_initial_three_lowest",
+        "positions_by_selected_label": [
+          1,
+          2,
+          13
+        ],
+        "selected_codegrees": [
+          1,
+          1,
+          2
+        ],
+        "strictly_below_one": false,
+        "vertices": 22
+      },
+      {
+        "bound": {
+          "denominator": 1385670,
+          "numerator": 1395847
+        },
+        "counts_by_mask_000_to_111": [
+          15,
+          4,
+          5,
+          1,
+          4,
+          2,
+          1,
+          0
+        ],
+        "degrees": [
+          7,
+          7,
+          7
+        ],
+        "family": "v22_initial_three_lowest",
+        "positions_by_selected_label": [
+          1,
+          2,
+          13
+        ],
+        "selected_codegrees": [
+          1,
+          2,
+          1
+        ],
+        "strictly_below_one": false,
+        "vertices": 22
+      },
+      {
+        "bound": {
+          "denominator": 1385670,
+          "numerator": 1395847
+        },
+        "counts_by_mask_000_to_111": [
+          15,
+          4,
+          4,
+          2,
+          5,
+          1,
+          1,
+          0
+        ],
+        "degrees": [
+          7,
+          7,
+          7
+        ],
+        "family": "v22_initial_three_lowest",
+        "positions_by_selected_label": [
+          1,
+          13,
+          2
+        ],
+        "selected_codegrees": [
+          2,
+          1,
+          1
+        ],
+        "strictly_below_one": false,
+        "vertices": 22
+      }
+    ],
+    "position_bases": [
+      [
+        10,
+        11,
+        12
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        11
+      ],
+      [
+        1,
+        2,
+        13
+      ],
+      [
+        1,
+        11,
+        13
+      ]
+    ],
+    "ramsey": {
+      "certificate_sha256": "80274adc462f71be34906175b470324bedd6480f2fad452278aad0a36720700c",
+      "family_counts": {
+        "v22_ramsey_independent": 2,
+        "v22_ramsey_triangle": 215
+      },
+      "worst_by_family": {
+        "v22_ramsey_independent": {
+          "bound": {
+            "denominator": 92378,
+            "numerator": 91231
+          },
+          "counts_by_mask_000_to_111": [
+            14,
+            5,
+            5,
+            1,
+            5,
+            1,
+            1,
+            0
+          ],
+          "degrees": [
+            7,
+            7,
+            7
+          ],
+          "family": "v22_ramsey_independent",
+          "positions_by_selected_label": [
+            1,
+            2,
+            3
+          ],
+          "selected_codegrees": [
+            1,
+            1,
+            1
+          ],
+          "strictly_below_one": true,
+          "vertices": 22
+        },
+        "v22_ramsey_triangle": {
+          "bound": {
+            "denominator": 461890,
+            "numerator": 456463
+          },
+          "counts_by_mask_000_to_111": [
+            17,
+            3,
+            3,
+            2,
+            3,
+            2,
+            2,
+            0
+          ],
+          "degrees": [
+            7,
+            7,
+            7
+          ],
+          "family": "v22_ramsey_triangle",
+          "positions_by_selected_label": [
+            1,
+            11,
+            13
+          ],
+          "selected_codegrees": [
+            2,
+            2,
+            2
+          ],
+          "strictly_below_one": true,
+          "vertices": 22
+        }
+      }
+    },
+    "ramsey_step": "Residual profiles force minimum degree 7.  Since total degree is 160, at least 16 vertices have degree 7.  R(3,3)=6 applied to the graph xy iff codegree(x,y)>=2 supplies an independent triple or a triangle."
+  }
+}
