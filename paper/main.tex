@@ -221,8 +221,9 @@ $x$ covers four of the $v-1$ pairs incident with $x$.
 
 \section{The locked-permutation bound}\label{sec:locked}
 
-Choose an ordered set $S=(s_1,\ldots,s_s)$ of \emph{locked} vertices and
-distinct positions $p_1,\ldots,p_s\in[v]$.  Put $f=v-s$, and assign the
+Choose an ordered set $S=(s_1,\ldots,s_s)$ of \emph{locked} vertices, where
+$0\le s\le5$ and $f:=v-s\ge9$, and distinct positions
+$p_1,\ldots,p_s\in[v]$.  Assign the
 other vertices uniformly to the free positions.  For $A\subseteq[s]$, let
 \[
 l_A=|\{e\in E(H):e\cap S=\{s_i:i\in A\}\}|.
@@ -241,16 +242,19 @@ call it \emph{critical}.
 
 For a free position $k$, union bounds for being last, first, or both are
 \begin{align}
-L_k&=\sum_{A\prec k}l_A\frac{5-|A|}{f}
+L_k&=\sum_{\substack{A\prec k\\|A|\le 4}}l_A\frac{5-|A|}{f}
  \frac{\binom{b(k)}{4-|A|}}{\binom{f-1}{4-|A|}},\label{eq:free-last}\\
-F_k&=\sum_{A\succ k}l_A\frac{5-|A|}{f}
+F_k&=\sum_{\substack{A\succ k\\|A|\le 4}}l_A\frac{5-|A|}{f}
  \frac{\binom{a(k)}{4-|A|}}{\binom{f-1}{4-|A|}},\label{eq:free-first}\\
-B_k&=\sum_{\substack{A\cap B=\varnothing\\A\prec k,\ B\succ k}}
+B_k&=\sum_{\substack{A\cap B=\varnothing\\A\prec k,\ B\succ k\\
+|A|,|B|\le 4}}
 \left(l_Al_B-\ind_{A=B}l_A\right)
 \frac{\binom{b(k)}{4-|A|}\binom{a(k)}{4-|B|}}
 {f\binom{f-1}{4-|A|}\binom{f-1-(4-|A|)}{4-|B|}}.
 \label{eq:free-both}
 \end{align}
+Trace classes with $|A|=5$ contain no free vertex and therefore do not
+contribute at a free position.
 For a locked position $k=p_i$, the corresponding expressions are
 \begin{align}
 L_k&=\sum_{\substack{i\in A\\A\setminus\{i\}\prec k}}

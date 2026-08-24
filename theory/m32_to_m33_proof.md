@@ -183,8 +183,8 @@ edge-criticality, and no later step assumes that it does.
 This section derives every coefficient used by the exact evaluator.
 
 Choose an ordered set of locked vertices
-\(S=(s_1,\ldots,s_s)\) and distinct positions
-\(p_1,\ldots,p_s\in\{1,\ldots,v\}\).  Put \(f=v-s\).  The other \(f\)
+\(S=(s_1,\ldots,s_s)\), where \(0\le s\le5\) and \(f:=v-s\ge9\), and
+distinct positions \(p_1,\ldots,p_s\in\{1,\ldots,v\}\).  The other \(f\)
 vertices are assigned uniformly at random to the free positions.  For
 \(A\subseteq[s]\), let
 
@@ -223,7 +223,7 @@ the other \(4-|A|\) free vertices among the \(b\) earlier free slots.
 A union bound over edges therefore gives
 
 \[
-L_k=\sum_{A\prec k}l_A\frac{5-|A|}{f}
+L_k=\sum_{\substack{A\prec k\\|A|\le4}}l_A\frac{5-|A|}{f}
 \frac{\binom b{4-|A|}}{\binom{f-1}{4-|A|}}.
 \tag{3}
 \]
@@ -231,7 +231,7 @@ L_k=\sum_{A\prec k}l_A\frac{5-|A|}{f}
 Reversing the order gives
 
 \[
-F_k=\sum_{A\succ k}l_A\frac{5-|A|}{f}
+F_k=\sum_{\substack{A\succ k\\|A|\le4}}l_A\frac{5-|A|}{f}
 \frac{\binom a{4-|A|}}{\binom{f-1}{4-|A|}}.
 \tag{4}
 \]
@@ -254,12 +254,16 @@ each of those as if it were compatible only increases the union bound.
 Thus
 
 \[
-B_k=\sum_{\substack{A\cap B=\varnothing\\A\prec k,\ B\succ k}}
+B_k=\sum_{\substack{A\cap B=\varnothing\\A\prec k,\ B\succ k\\
+|A|,|B|\le4}}
 \left(l_Al_B-\mathbf1_{A=B}l_A\right)
 \frac{\binom b{4-|A|}\binom a{4-|B|}}
 {f\binom{f-1}{4-|A|}\binom{f-1-(4-|A|)}{4-|B|}}.
 \tag{5}
 \]
+
+Trace classes of size five have no free vertex and hence are absent from
+all three free-position sums.
 
 The diagonal subtraction excludes using the same edge twice.  Under the
 disjointness condition it is nonzero only for \(A=B=\varnothing\), but the

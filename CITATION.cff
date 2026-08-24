@@ -3,7 +3,7 @@ message: "If you use this proof artifact, cite this archived release and the acc
 title: "An Exact Locked-Permutation Certificate for Property B: m(5) >= 33"
 type: software
 version: "1.0.0"
-date-released: "2026-08-23"
+date-released: "2026-08-24"
 doi: "10.5281/zenodo.22070117"
 authors:
   - family-names: "Agarwal"

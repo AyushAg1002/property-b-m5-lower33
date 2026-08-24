@@ -17,7 +17,7 @@ Unchecked boxes identify the remaining archive and journal handoff steps.
 - [x] Do not list an AI system as an author or imply that human verification
       has occurred when it has not.
 
-The Electronic Journal of Combinatorics policy was rechecked on 2026-08-23.
+The Electronic Journal of Combinatorics policy was rechecked on 2026-08-24.
 Its author-responsibility requirements are reflected in the manuscript and
 the separate human-verification record.
 
@@ -48,7 +48,7 @@ the separate human-verification record.
 
 ## Final mechanical checks
 
-- [ ] Compile the identified manuscript from the arXiv/source archive in a
+- [x] Compile the identified manuscript from the arXiv/source archive in a
       clean TeX environment; inspect every rendered page visually.
 - [x] Run `python3 verify_lower33_artifact.py` and
       `python3 verify_lower33_artifact.py --full` and retain complete transcripts.
